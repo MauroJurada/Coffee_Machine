@@ -7,19 +7,28 @@ public class CoffeeMachine {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Starting to make a coffee\n" +
-                "Grinding coffee beans\n" +
-                "Boiling water\n" +
-                "Mixing boiled water with crushed coffee beans\n" +
-                "Pouring coffee into the cup\n" +
-                "Pouring some milk into the cup\n" +
-                "Coffee is ready!");
+        System.out.println("Write how many ml of water the coffee machine has:");
+        int water = sc.nextInt();
+        System.out.println("Write how many ml of milk the coffee machine has:");
+        int milk = sc.nextInt();
+        System.out.println("Write how many grams of coffee beans the coffee machine has:");
+        int beans = sc.nextInt();
         System.out.println("Write how many cups of coffee you will need:");
+        int n = sc.nextInt();
 
-        int x = sc.nextInt();
+        water /= 200;
+        milk /= 50;
+        beans /= 15;
 
-        System.out.println("For " + x + "cups of coffee you will need:\n" +
-                200*x + "ml of water\n" + 50*x + "ml of milk\n" + 15*x + "g of coffee beans");
+        int min = Math.min(water, milk);
+        min = Math.min(beans, min);
 
+        if (n == min){
+            System.out.println("Yes, I can make that amount of coffee");
+        }else if(n < min){
+            System.out.println("Yes, I can make that amount of coffee (and even " + (min - n) + " more than that)");
+        }else {
+            System.out.println("No, I can make only "+ min +" cup(s) of coffee");
+        }
     }
 }

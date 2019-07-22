@@ -283,7 +283,7 @@
           <option name="items">
             <list>
               <FrameworkLesson>
-                <option name="currentTaskIndex" value="1" />
+                <option name="currentTaskIndex" value="2" />
                 <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="1" />
@@ -354,8 +354,8 @@
                       <option name="id" value="5330" />
                       <option name="index" value="2" />
                       <option name="name" value="Machines have needs" />
-                      <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="record" value="2" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="test/CoffeeMachineTest.java">
@@ -403,8 +403,8 @@
                       <option name="id" value="5331" />
                       <option name="index" value="3" />
                       <option name="name" value="Enough coffee for everyone" />
-                      <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="record" value="3" />
+                      <option name="status" value="Failed" />
                       <option name="files">
                         <map>
                           <entry key="test/CoffeeMachineTest.java">
@@ -427,7 +427,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/machine/CoffeeMachine.java" />
                                 <option name="text" value="package machine;&#10;&#10;public class CoffeeMachine {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
