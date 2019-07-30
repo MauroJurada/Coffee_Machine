@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../../Coffee Machine (Java)/task">
       <excludeFolder url="file://$MODULE_DIR$/../../../../Coffee Machine (Java)/task/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../Coffee Machine (Java)/task/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Coffee Machine (Java)/task/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

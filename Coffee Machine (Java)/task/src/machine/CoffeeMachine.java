@@ -20,9 +20,9 @@ public class CoffeeMachine {
             switch (option) {
                 case "buy":
                     System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu: ");
-                    String x = sc.next();
+                    String buyOption = sc.next();
 
-                    switch (x) {
+                    switch (buyOption) {
                         case "1":
                             if (water < 250) {
                                 System.out.println("Sorry, not enough water!");
